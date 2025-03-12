@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { SpinnerInfinity } from 'spinners-react';
 
 
 export const AjaxComponent = () => {
@@ -58,7 +59,8 @@ export const AjaxComponent = () => {
     }
     else if (cargando == true) {
         return (
-            <div className='cargando'>CArgando datos....</div>
+            // <div className='cargando'>CArgando datos....</div>
+            <SpinnerInfinity size={80} сolor={'#2d2e2d'} secondaryColor={'#c4f4d0'}  />
         );
     } else if (cargando == false && error === "") {
         //cuando todo ha ido bien
