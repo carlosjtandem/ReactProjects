@@ -1,0 +1,2 @@
+useQuery es un hook proporcionado por la librería React Query (ahora llamada TanStack Query). 
+Se usa para hacer peticiones asincrónicas (como obtener datos de una API) y gestionar automáticamente caché, reintentos y estados de carga.
